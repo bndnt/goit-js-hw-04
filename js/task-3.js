@@ -23,7 +23,7 @@ profile.updatePlayTime(20);
 console.log(profile.getInfo()); // "Marco has 320 active hours!"
 
 const style = [
-  "background: #",
+  "background: #000",
   "color: #FF0000",
   "padding: 10px 20px",
   "line-height: 35px",
