@@ -134,7 +134,7 @@ console.log(profile.getInfo()); // "Marco has 320 active hours!"
 ### На що буде звертати увагу ментор при перевірці:
 
 - Оголошена змінна profile
-- - Значення змінної profile — це об’єкт з властивостями username, playTime, getInfo, changeUsername і updatePlayTime
+- Значення змінної profile — це об’єкт з властивостями username, playTime, getInfo, changeUsername і updatePlayTime
 - Значення властивості getInfo — це функція
 - Значення властивості changeUsername — це функція
 - Значення властивості updatePlayTime — це функція
