@@ -25,11 +25,11 @@ console.log(isEnoughCapacity({ apples: 18, potatos: 5, oranges: 2 }, 7)); // fal
 
 ### На що буде звертати увагу ментор при перевірці:
 
-    Оголошена функція isEnoughCapacity(products, containerSize)
-    Виклик isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8) повертає true
-    Виклик isEnoughCapacity({ apples: 4, grapes: 6, lime: 16 }, 12) повертає false
-    Виклик isEnoughCapacity({ apples: 1, lime: 5, tomatos: 3 }, 14) повертає true
-    Виклик isEnoughCapacity({ apples: 18, potatos: 5, oranges: 2 }, 7) повертає false
+- Оголошена функція isEnoughCapacity(products, containerSize)
+- Виклик isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8) повертає true
+- Виклик isEnoughCapacity({ apples: 4, grapes: 6, lime: 16 }, 12) повертає false
+- Виклик isEnoughCapacity({ apples: 1, lime: 5, tomatos: 3 }, 14) повертає true
+- Виклик isEnoughCapacity({ apples: 18, potatos: 5, oranges: 2 }, 7) повертає false
 
 ## Задача 2. Розрахунок калорій
 
@@ -115,9 +115,9 @@ const profile = {
 
 Доповни об’єкт profile методами для роботи з його властивостями.
 
-    Метод changeUsername(newName) повинен приймати рядок (нове ім’я) в параметр newName та змінювати значення властивості username на нове. Нічого не повертає.
-    Метод updatePlayTime(hours) повинен приймати число (кількість годин) у параметр hours та збільшити на нього значення властивості playTime. Нічого не повертає.
-    Метод getInfo() має повертати рядок формату <Username> has <amount> active hours!, де <Username> — це ім’я профілю, а <amount> — кількість ігрових годин.
+- Метод changeUsername(newName) повинен приймати рядок (нове ім’я) в параметр newName та змінювати значення властивості username на нове. Нічого не повертає.
+- Метод updatePlayTime(hours) повинен приймати число (кількість годин) у параметр hours та збільшити на нього значення властивості playTime. Нічого не повертає.
+- Метод getInfo() має повертати рядок формату <Username> has <amount> active hours!, де <Username> — це ім’я профілю, а <amount> — кількість ігрових годин.
 
 Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
@@ -133,9 +133,9 @@ console.log(profile.getInfo()); // "Marco has 320 active hours!"
 
 ### На що буде звертати увагу ментор при перевірці:
 
-Оголошена змінна profile
-Значення змінної profile — це об’єкт з властивостями username, playTime, getInfo, changeUsername і updatePlayTime
-Значення властивості getInfo — це функція
-Значення властивості changeUsername — це функція
-Значення властивості updatePlayTime — це функція
-Для звернення до властивостей об’єкта в його методах використовується this
+- Оголошена змінна profile
+- - Значення змінної profile — це об’єкт з властивостями username, playTime, getInfo, changeUsername і updatePlayTime
+- Значення властивості getInfo — це функція
+- Значення властивості changeUsername — це функція
+- Значення властивості updatePlayTime — це функція
+- Для звернення до властивостей об’єкта в його методах використовується this
